@@ -1,4 +1,4 @@
 data "google_compute_network" "my-network" {
-    project = var.project
+    project = terraform.workspace.project
     name = var.name
 }
