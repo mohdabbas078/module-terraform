@@ -1,7 +1,7 @@
-variable "project_id" {
+variable "project" {
   type = string
 }
 
-variable "network_name" {
+variable "network" {
   type = string
 }
